@@ -43,11 +43,11 @@ export default async function () {
         name: "slug",
         title: "Slug",
         type: "text",
-        placeholder: "what-is-shipany",
+        placeholder: "what-is-claudedesigner",
         validation: {
           required: true,
         },
-        tip: "post slug should be unique, visit like: /blog/what-is-shipany",
+        tip: "post slug should be unique, visit like: /blog/what-is-claudedesigner",
       },
       {
         name: "locale",

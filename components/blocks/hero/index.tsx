@@ -45,7 +45,7 @@ export default function Hero({ hero }: { hero: HeroType }) {
             )}
 
             {texts && texts.length > 1 ? (
-              <h1 className="mx-auto mb-3 mt-4 max-w-3xl text-balance text-4xl font-bold lg:mb-7 lg:text-7xl">
+              <h1 className="mx-auto mb-3 mt-4 max-w-5xl text-balance text-4xl font-bold lg:mb-7 lg:text-7xl">
                 {texts[0]}
                 <span className="bg-gradient-to-r from-primary via-primary to-primary bg-clip-text text-transparent">
                   {highlightText}
@@ -53,13 +53,13 @@ export default function Hero({ hero }: { hero: HeroType }) {
                 {texts[1]}
               </h1>
             ) : (
-              <h1 className="mx-auto mb-3 mt-4 max-w-3xl text-balance text-4xl font-bold lg:mb-7 lg:text-7xl">
+              <h1 className="mx-auto mb-3 mt-4 max-w-5xl text-balance text-4xl font-bold lg:mb-7 lg:text-7xl">
                 {hero.title}
               </h1>
             )}
 
             <p
-              className="m mx-auto max-w-3xl text-muted-foreground lg:text-xl"
+              className="mx-auto max-w-4xl text-muted-foreground lg:text-xl"
               dangerouslySetInnerHTML={{ __html: hero.description || "" }}
             />
             {hero.buttons && (

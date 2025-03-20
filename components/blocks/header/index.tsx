@@ -1,5 +1,5 @@
 "use client";
-
+<link rel="icon" href="/public/favicon.ico"></link>
 import {
   Accordion,
   AccordionContent,

@@ -1,12 +1,12 @@
 {
-  "template": "shipany-template-one",
+  "template": "ClaudeDesigner",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "ShipAny",
+      "title": "Claude Designer",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "Claude Designer"
       },
       "url": "/"
     },
@@ -16,168 +16,82 @@
           "title": "Features",
           "url": "/#feature",
           "icon": "HiOutlineSparkles"
-        },
-        {
-          "title": "Pricing",
-          "url": "/#pricing",
-          "icon": "MdPayment"
-        },
-        {
-          "title": "Showcase",
-          "url": "/#showcase",
-          "icon": "BiCube",
-          "children": [
-            {
-              "title": "AI Wallpaper Shop",
-              "description": "AI Wallpaper Generator",
-              "icon": "MdOutlineWallpaper",
-              "url": "https://aiwallpaper.shop",
-              "target": "_blank"
-            },
-            {
-              "title": "AI Cover Generator",
-              "description": "AI Cover Generator",
-              "icon": "",
-              "url": "https://aicover.design",
-              "target": "_blank"
-            }
-          ]
         }
       ]
     },
-    "buttons": [
-      {
-        "title": "Get ShipAny",
-        "url": "https://shipany.ai",
-        "target": "_blank",
-        "variant": "link",
-        "icon": "RiArrowRightUpLine"
-      }
-    ],
-    "show_sign": true,
+
+    "show_sign": false,
     "show_theme": true,
-    "show_locale": true
+    "show_locale": false
   },
   "hero": {
-    "title": "Ship Any AI Startups in hours, not days",
-    "highlight_text": "Ship Any",
-    "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups.<br/>Ship Fast with a variety of templates and components.",
-    "announcement": {
-      "label": "2025",
-      "title": "🎉 Happy New Year",
-      "url": "/#pricing"
-    },
-    "tip": "🎁 50% off before 2025",
+    "title": "Design Anything with Claude Designer",
+    "highlight_text": "Claude Designer",
+    "description": "Coming Soon! 🎨 We're putting the finishing touches on something amazing! Please bookmark us!",
     "buttons": [
       {
-        "title": "Get Started",
+        "title": "Start Designing",
         "icon": "RiFlashlightFill",
-        "url": "/#pricing",
+        "url": "/",
         "target": "_self",
         "variant": "default"
-      },
-      {
-        "title": "Join Discord",
-        "icon": "RiDiscordFill",
-        "url": "https://discord.gg/HQNnrzjZQS",
-        "target": "_blank",
-        "variant": "outline"
       }
     ],
-    "show_happy_users": true,
+    "show_happy_users": false,
     "show_badge": false
   },
-  "branding": {
-    "title": "ShipAny is built on the shoulders of giants",
-    "items": [
-      {
-        "title": "Next.js",
-        "image": {
-          "src": "/imgs/logos/nextjs.svg",
-          "alt": "Next.js"
-        }
-      },
-      {
-        "title": "React",
-        "image": {
-          "src": "/imgs/logos/react.svg",
-          "alt": "React"
-        }
-      },
-      {
-        "title": "TailwindCSS",
-        "image": {
-          "src": "/imgs/logos/tailwindcss.svg",
-          "alt": "TailwindCSS"
-        }
-      },
-      {
-        "title": "Shadcn/UI",
-        "image": {
-          "src": "/imgs/logos/shadcn.svg",
-          "alt": "Shadcn/UI"
-        }
-      },
-      {
-        "title": "Vercel",
-        "image": {
-          "src": "/imgs/logos/vercel.svg",
-          "alt": "Vercel"
-        }
-      }
-    ]
-  },
+
   "introduce": {
     "name": "introduce",
-    "title": "What is ShipAny",
+    "title": "What is Claude Designer",
     "label": "Introduce",
-    "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Built in a variety of templates and components.",
+    "description": "Claude Designer is an AI-powered design platform that leverages Anthropic's Claude technology. Create beautiful designs with intelligent assistance.",
     "image": {
       "src": "/imgs/features/1.png"
     },
     "items": [
       {
-        "title": "Ready-to-use Templates",
-        "description": "Choose from dozens of production-ready AI SaaS templates to quickly start your project.",
+        "title": "AI-Powered Design Templates",
+        "description": "Choose from dozens of Claude Designer templates to quickly create professional designs.",
         "icon": "RiNextjsFill"
       },
       {
-        "title": "Infrastructure Setup",
-        "description": "Get instant access to scalable infrastructure with best practices built-in.",
+        "title": "Intelligent Design System",
+        "description": "Claude Designer provides smart design suggestions and automated layouts based on your content.",
         "icon": "RiDatabase2Line"
       },
       {
-        "title": "Quick Deployment",
-        "description": "Deploy your AI SaaS application to production in hours, not days.",
+        "title": "Rapid Design Creation",
+        "description": "Create stunning designs with Claude Designer in minutes, not hours.",
         "icon": "RiCloudyFill"
       }
     ]
   },
   "benefit": {
     "name": "benefit",
-    "title": "Why Choose ShipAny",
+    "title": "Why Choose Claude Designer",
     "label": "Benefits",
-    "description": "Get everything you need to launch your AI startup - from ready-to-use templates to technical support.",
+    "description": "Get everything you need for professional design - from AI-powered templates to intelligent design assistance.",
     "items": [
       {
-        "title": "Complete Framework",
-        "description": "Built on Next.js with authentication, payments, and AI integration - everything works out of the box.",
+        "title": "Complete Design Platform",
+        "description": "Claude Designer offers a comprehensive suite of design tools with AI assistance for all your creative needs.",
         "icon": "RiNextjsFill",
         "image": {
           "src": "/imgs/features/2.png"
         }
       },
       {
-        "title": "Rich Templates Library",
-        "description": "Choose from various AI SaaS templates to kickstart your project - chatbots, image generation, and more.",
+        "title": "Rich Template Library",
+        "description": "Choose from various Claude Designer templates to kickstart your projects - logos, social media posts, presentations and more.",
         "icon": "RiClapperboardAiLine",
         "image": {
           "src": "/imgs/features/3.png"
         }
       },
       {
-        "title": "Technical Guidance",
-        "description": "Get dedicated support and join our developer community to ensure your successful launch.",
+        "title": "Design Guidance",
+        "description": "Get intelligent design suggestions from Claude Designer to enhance your creative process.",
         "icon": "RiCodeFill",
         "image": {
           "src": "/imgs/features/4.png"
@@ -185,91 +99,52 @@
       }
     ]
   },
-  "usage": {
-    "name": "usage",
-    "title": "How to Launch with ShipAny",
-    "description": "Get your AI SaaS startup running in three simple steps:",
-    "image": {
-      "src": "/imgs/features/1.png"
-    },
-    "image_position": "left",
-    "text_align": "center",
-    "items": [
-      {
-        "title": "Get ShipAny",
-        "description": "Buy ShipAny with a one-time payment. Check your email for the code and documentation.",
-        "image": {
-          "src": "/imgs/features/5.png"
-        }
-      },
-      {
-        "title": "Start Your Project",
-        "description": "Read the documentation and clone the code of ShipAny. Start building your AI SaaS startup.",
-        "image": {
-          "src": "/imgs/features/6.png"
-        }
-      },
-      {
-        "title": "Customize Your Project",
-        "description": "Modify the template with your data and contents. Specific AI functionality needs.",
-        "image": {
-          "src": "/imgs/features/7.png"
-        }
-      },
-      {
-        "title": "Deploy to Production",
-        "description": "Deploy your project to production with a few steps and start serving customers immediately.",
-        "image": {
-          "src": "/imgs/features/8.png"
-        }
-      }
-    ]
-  },
+
   "feature": {
     "name": "feature",
-    "title": "Key Features of ShipAny",
-    "description": "Everything you need to launch your AI SaaS startup quickly and efficiently.",
+    "title": "Key Features of Claude Designer",
+    "description": "Everything you need to create stunning designs with AI assistance.",
     "items": [
       {
-        "title": "Next.js Boilerplate",
-        "description": "Production-ready Next.js templates with SEO-friendly structure and i18n support.",
+        "title": "AI Design Generation",
+        "description": "Claude Designer creates professional designs based on your requirements and preferences.",
         "icon": "RiNextjsFill"
       },
       {
-        "title": "Authentication & Payments",
-        "description": "Integrated Google OAuth, one-tap login, and Stripe payment processing.",
+        "title": "Smart Layout System",
+        "description": "Claude Designer automatically suggests optimal layouts and design elements for your content.",
         "icon": "RiKey2Fill"
       },
       {
-        "title": "Data Infrastructure",
-        "description": "Built-in Supabase integration for reliable and scalable data storage.",
+        "title": "Design Library",
+        "description": "Access Claude Designer's extensive library of design elements, fonts, and color schemes.",
         "icon": "RiDatabase2Line"
       },
       {
-        "title": "One-Click Deployment",
-        "description": "Seamless deployment to Vercel or Cloudflare with automated setup.",
+        "title": "One-Click Export",
+        "description": "Export your Claude Designer creations in multiple formats with a single click.",
         "icon": "RiCloudy2Fill"
       },
       {
-        "title": "Business Analytics",
-        "description": "Integrated Google Analytics and Search Console for tracking growth.",
+        "title": "Design Analytics",
+        "description": "Track performance and engagement of your Claude Designer creations.",
         "icon": "RiBarChart2Line"
       },
       {
-        "title": "AI-Ready Infrastructure",
-        "description": "Pre-configured AI integration with built-in credits system and API sales.",
+        "title": "AI Design Assistant",
+        "description": "Get intelligent design suggestions from Claude Designer to enhance your creative process.",
         "icon": "RiRobot2Line"
       }
     ]
   },
   "showcase": {
     "name": "showcase",
-    "title": "AI SaaS Startups built with ShipAny",
-    "description": "Easy to use and fast to ship.",
+    "title": "Amazing Designs created with Claude Designer",
+    "description": "Easy to use and beautiful results.",
     "items": [
       {
-        "title": "ThinkAny",
-        "description": "AI Search Engine",
+        "title": "Brand Identity",
+        "description": "Complete Brand Design",
         "url": "https://thinkany.ai",
         "target": "_blank",
         "image": {
@@ -277,8 +152,8 @@
         }
       },
       {
-        "title": "HeyBeauty",
-        "description": "AI Virtual Try On",
+        "title": "Beauty Products",
+        "description": "Product Design Showcase",
         "url": "https://heybeauty.ai",
         "target": "_blank",
         "image": {
@@ -286,8 +161,8 @@
         }
       },
       {
-        "title": "AI Wallpaper",
-        "description": "AI Wallpaper Generator",
+        "title": "AI Wallpapers",
+        "description": "Claude Designer Wallpapers",
         "url": "https://aiwallpaper.shop",
         "target": "_blank",
         "image": {
@@ -295,8 +170,8 @@
         }
       },
       {
-        "title": "AI Cover",
-        "description": "AI Cover Generator",
+        "title": "Cover Designs",
+        "description": "Book & Album Covers",
         "url": "https://aicover.design",
         "target": "_blank",
         "image": {
@@ -304,8 +179,8 @@
         }
       },
       {
-        "title": "GPTs Works",
-        "description": "GPTs Directory",
+        "title": "UI Design",
+        "description": "App Interface Design",
         "url": "https://gpts.works",
         "target": "_blank",
         "image": {
@@ -313,8 +188,8 @@
         }
       },
       {
-        "title": "Melodisco",
-        "description": "AI Music Player",
+        "title": "Music Visuals",
+        "description": "Audio Visualizations",
         "url": "https://melodis.co",
         "target": "_blank",
         "image": {
@@ -322,8 +197,8 @@
         }
       },
       {
-        "title": "Pagen",
-        "description": "AI Landing Page Generator",
+        "title": "Landing Pages",
+        "description": "Web Design Templates",
         "url": "https://pagen.so",
         "target": "_blank",
         "image": {
@@ -331,8 +206,8 @@
         }
       },
       {
-        "title": "SoraFM",
-        "description": "AI Video Generator",
+        "title": "Video Thumbnails",
+        "description": "Claude Designer Thumbnails",
         "url": "https://sorafm.trys.ai",
         "target": "_blank",
         "image": {
@@ -340,8 +215,8 @@
         }
       },
       {
-        "title": "PodLM",
-        "description": "AI Podcast Generator",
+        "title": "Podcast Graphics",
+        "description": "Audio Content Design",
         "url": "https://podlm.ai",
         "target": "_blank",
         "image": {
@@ -353,22 +228,22 @@
   "stats": {
     "name": "stats",
     "label": "Stats",
-    "title": "People Love ShipAny",
-    "description": "for it's easy to use and fast to ship.",
+    "title": "People Love Claude Designer",
+    "description": "for its intelligent design capabilities and beautiful results.",
     "icon": "FaRegHeart",
     "items": [
       {
         "title": "Trusted by",
         "label": "99+",
-        "description": "Customers"
+        "description": "Designers"
       },
       {
-        "title": "Built in",
-        "label": "20+",
-        "description": "Components"
+        "title": "Created",
+        "label": "20K+",
+        "description": "Designs"
       },
       {
-        "title": "Ship Fast in",
+        "title": "Design in",
         "label": "5",
         "description": "Minutes"
       }
@@ -377,22 +252,22 @@
   "pricing": {
     "name": "pricing",
     "label": "Pricing",
-    "title": "Pricing",
-    "description": "Get all features of ShipAny, Ship your AI SaaS startups fast.",
+    "title": "Claude Designer Pricing",
+    "description": "Get all features of Claude Designer and create stunning designs with AI assistance.",
     "groups": [],
     "items": [
       {
-        "title": "Starter",
-        "description": "Get started with your first SaaS startup.",
+        "title": "Basic Designer",
+        "description": "Get started with Claude Designer's essential features.",
         "features_title": "Includes",
         "features": [
-          "100 credits, valid for 1 month",
-          "NextJS boilerplate",
-          "SEO-friendly structure",
-          "Payment with Stripe",
-          "Data storage with Supabase",
-          "Google Oauth & One-Tap Login",
-          "i18n support"
+          "100 designs per month",
+          "Claude Designer templates",
+          "Basic design tools",
+          "Standard export formats",
+          "Cloud storage for designs",
+          "Community support",
+          "Mobile compatibility"
         ],
         "interval": "one-time",
         "amount": 9900,
@@ -402,30 +277,30 @@
         "original_price": "$199",
         "unit": "USD",
         "is_featured": false,
-        "tip": "Pay once. Build unlimited projects!",
+        "tip": "Perfect for individual designers!",
         "button": {
-          "title": "Get ShipAny",
+          "title": "Get Claude Designer",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter",
-        "product_name": "ShipAny Boilerplate Starter",
+        "product_name": "Claude Designer Basic",
         "credits": 100,
         "valid_months": 1
       },
       {
-        "title": "Standard",
-        "description": "Ship Fast with your SaaS Startups.",
+        "title": "Professional",
+        "description": "Create stunning designs with Claude Designer's advanced features.",
         "label": "Popular",
-        "features_title": "Everything in Starter, plus",
+        "features_title": "Everything in Basic, plus",
         "features": [
-          "200 credits, valid for 3 month",
-          "Deploy with Vercel or Cloudflare",
-          "Generation of Privacy & Terms",
-          "Google Analytics Integration",
-          "Google Search Console Integration",
-          "Discord community",
-          "Technical support for your first ship",
+          "Unlimited designs",
+          "Premium Claude Designer templates",
+          "Advanced design tools",
+          "All export formats",
+          "Design analytics",
+          "Priority support",
+          "Team collaboration features",
           "Lifetime updates"
         ],
         "interval": "one-time",
@@ -436,29 +311,29 @@
         "original_price": "$299",
         "unit": "USD",
         "is_featured": true,
-        "tip": "Pay once. Build unlimited projects!",
+        "tip": "Best value for professional designers!",
         "button": {
-          "title": "Get ShipAny",
+          "title": "Get Claude Designer",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
         "product_id": "standard",
-        "product_name": "ShipAny Boilerplate Standard",
+        "product_name": "Claude Designer Professional",
         "credits": 200,
         "valid_months": 3
       },
       {
-        "title": "Premium",
-        "description": "Ship Any AI SaaS Startups.",
-        "features_title": "Everything in Standard, plus",
+        "title": "Enterprise",
+        "description": "Claude Designer for teams and businesses.",
+        "features_title": "Everything in Professional, plus",
         "features": [
-          "300 credits, valid for 1 year",
-          "Business Functions with AI",
-          "User Center",
-          "Credits System",
-          "API Sales for your SaaS",
-          "Admin System",
-          "Priority Technical Support"
+          "Unlimited team members",
+          "Custom Claude Designer templates",
+          "Brand management system",
+          "Advanced AI design features",
+          "Design approval workflows",
+          "API access",
+          "Dedicated account manager"
         ],
         "interval": "one-time",
         "amount": 29900,
@@ -468,14 +343,14 @@
         "original_price": "$399",
         "unit": "USD",
         "is_featured": false,
-        "tip": "Pay once. Build unlimited projects!",
+        "tip": "Perfect for design teams and agencies!",
         "button": {
-          "title": "Get ShipAny",
+          "title": "Get Claude Designer",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium",
-        "product_name": "ShipAny Boilerplate Premium",
+        "product_name": "Claude Designer Enterprise",
         "credits": 300,
         "valid_months": 12
       }
@@ -484,54 +359,54 @@
   "testimonial": {
     "name": "testimonial",
     "label": "Testimonial",
-    "title": "What Users Say About ShipAny",
-    "description": "Hear from developers and founders who launched their AI startups with ShipAny.",
+    "title": "What Users Say About Claude Designer",
+    "description": "Hear from designers and creative professionals who use Claude Designer for their projects.",
     "icon": "GoThumbsup",
     "items": [
       {
         "title": "David Chen",
-        "label": "Founder of AIWallpaper.shop",
-        "description": "ShipAny saved us months of development time. We launched our AI wallpaper business in just 2 days and got our first paying customer within a week!",
+        "label": "Graphic Designer",
+        "description": "Claude Designer saved me hours of work. I created a complete brand identity in just 2 days and my client was amazed by the quality!",
         "image": {
           "src": "/imgs/users/1.png"
         }
       },
       {
         "title": "Rachel Kim",
-        "label": "CTO at HeyBeauty.ai",
-        "description": "The pre-built AI infrastructure is a game-changer. We didn't have to worry about architecture - just focused on our AI beauty tech and went live fast.",
+        "label": "Art Director",
+        "description": "The AI-powered design suggestions from Claude Designer are incredible. It's like having a professional design assistant available 24/7.",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
         "title": "Marcus Thompson",
-        "label": "Solo Developer",
-        "description": "As a solo developer, ShipAny gave me everything I needed - auth, payments, AI integration, and beautiful UI. Launched my SaaS in a weekend!",
+        "label": "Freelance Designer",
+        "description": "As a freelancer, Claude Designer gives me everything I need - beautiful templates, smart layout tools, and professional results. My workflow is 3x faster!",
         "image": {
           "src": "/imgs/users/3.png"
         }
       },
       {
         "title": "Sofia Garcia",
-        "label": "CEO of Melodisco",
-        "description": "The templates are production-ready and highly customizable. We built our AI music platform in hours instead of months. Incredible time-to-market!",
+        "label": "Marketing Director",
+        "description": "Claude Designer's templates are stunning and highly customizable. We created our entire marketing campaign visuals in hours instead of weeks.",
         "image": {
           "src": "/imgs/users/4.png"
         }
       },
       {
         "title": "James Wilson",
-        "label": "Tech Lead at GPTs.works",
-        "description": "ShipAny's infrastructure is rock-solid. We scaled from 0 to 10k users without touching the backend. Best investment for our AI startup.",
+        "label": "UI/UX Designer",
+        "description": "Claude Designer's intelligent layout system is revolutionary. I can create consistent, beautiful interfaces without the usual tedious adjustments.",
         "image": {
           "src": "/imgs/users/5.png"
         }
       },
       {
         "title": "Anna Zhang",
-        "label": "Startup Founder",
-        "description": "From idea to launch in 3 days! ShipAny's templates and deployment tools made it possible to test our AI business concept incredibly fast.",
+        "label": "Creative Entrepreneur",
+        "description": "From concept to finished design in minutes! Claude Designer's AI capabilities helped me visualize my ideas faster than I ever thought possible.",
         "image": {
           "src": "/imgs/users/6.png"
         }
@@ -541,50 +416,50 @@
   "faq": {
     "name": "faq",
     "label": "FAQ",
-    "title": "Frequently Asked Questions About ShipAny",
+    "title": "Frequently Asked Questions About Claude Designer",
     "description": "Have another question? Contact us on Discord or by email.",
     "items": [
       {
-        "title": "What exactly is ShipAny and how does it work?",
-        "description": "ShipAny is a comprehensive NextJS boilerplate designed specifically for building AI SaaS startups. It provides ready-to-use templates, infrastructure setup, and deployment tools that help you launch your AI business in hours instead of days."
+        "title": "What exactly is Claude Designer and how does it work?",
+        "description": "Claude Designer is an AI-powered design platform that uses Anthropic's Claude technology to help you create professional designs. It provides intelligent templates, smart layout suggestions, and creative assistance to streamline your design workflow."
       },
       {
-        "title": "Do I need advanced technical skills to use ShipAny?",
-        "description": "While basic programming knowledge is helpful, ShipAny is designed to be developer-friendly. Our templates and documentation make it easy to get started, even if you're not an expert in AI or cloud infrastructure."
+        "title": "Do I need advanced design skills to use Claude Designer?",
+        "description": "Not at all! Claude Designer is designed to be user-friendly. Our AI-powered templates and design assistance make it easy to create professional designs, even if you have limited design experience."
       },
       {
-        "title": "What types of AI SaaS can I build with ShipAny?",
-        "description": "ShipAny supports a wide range of AI applications, from content generation to data analysis tools. Our templates cover popular use cases like AI chatbots, content generators, image processing apps, and more."
+        "title": "What types of designs can I create with Claude Designer?",
+        "description": "Claude Designer supports a wide range of design projects, from brand identities to social media graphics. Our templates cover popular design needs like logos, presentations, marketing materials, website designs, and more."
       },
       {
-        "title": "How long does it typically take to launch with ShipAny?",
-        "description": "With ShipAny, you can have a working prototype in hours and a production-ready application in hours. Our one-click deployment and pre-configured infrastructure significantly reduce the traditional months-long development cycle."
+        "title": "How long does it typically take to create designs with Claude Designer?",
+        "description": "With Claude Designer, you can create stunning designs in minutes, not hours. Our AI-powered tools and pre-designed templates significantly reduce the traditional design process time."
       },
       {
-        "title": "What's included in the ShipAny infrastructure?",
-        "description": "ShipAny provides a complete infrastructure stack including authentication, database setup, API integration, payment processing, and scalable cloud deployment. Everything is pre-configured following industry best practices."
+        "title": "What's included in the Claude Designer platform?",
+        "description": "Claude Designer provides a complete design toolkit including AI-powered templates, smart layout systems, typography suggestions, color palette generators, image editing tools, and cloud storage for your designs."
       },
       {
         "title": "Can I customize the templates to match my brand?",
-        "description": "Absolutely! All ShipAny templates are fully customizable. You can modify the design, features, and functionality to match your brand identity and specific business requirements while maintaining the robust underlying infrastructure."
+        "description": "Absolutely! All Claude Designer templates are fully customizable. You can modify colors, fonts, layouts, and elements to match your brand identity while maintaining professional design quality."
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "Ship your first AI SaaS Startup",
-    "description": "Start from here, ship with ShipAny.",
+    "title": "Create stunning designs with Claude Designer",
+    "description": "Start designing with Claude's AI assistance today.",
     "buttons": [
       {
-        "title": "Get ShipAny",
-        "url": "https://shipany.ai",
+        "title": "Try Claude Designer",
+        "url": "/#pricing",
         "target": "_blank",
         "icon": "GoArrowUpRight"
       },
       {
-        "title": "Read Document",
-        "url": "https://docs.shipany.ai",
-        "target": "_blank",
+        "title": "View Gallery",
+        "url": "/#showcase",
+        "target": "_self",
         "variant": "outline"
       }
     ]
@@ -592,15 +467,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "ShipAny",
-      "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Ship Fast with a variety of templates and components.",
+      "title": "Claude Designer",
+      "description": "Claude Designer is an AI-powered design platform using Anthropic's Claude technology. Create stunning designs with intelligent assistance.",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "Claude Designer"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • ShipAny All rights reserved.",
+    "copyright": "© 2025 • Claude Designer All rights reserved.",
     "nav": {
       "items": [
         {
@@ -627,38 +502,38 @@
           "title": "Resources",
           "children": [
             {
-              "title": "Documents",
-              "url": "https://docs.shipany.ai",
-              "target": "_blank"
-            },
-            {
-              "title": "Components",
-              "url": "https://shipany.ai/components",
+              "title": "Tutorials",
+              "url": "/#tutorials",
               "target": "_blank"
             },
             {
               "title": "Templates",
-              "url": "https://shipany.ai/templates",
+              "url": "/#templates",
+              "target": "_blank"
+            },
+            {
+              "title": "Design Tips",
+              "url": "/#design-tips",
               "target": "_blank"
             }
           ]
         },
         {
-          "title": "Friends",
+          "title": "Design Tools",
           "children": [
             {
-              "title": "ThinkAny",
-              "url": "https://thinkany.ai",
+              "title": "Logo Creator",
+              "url": "/#logo-creator",
               "target": "_blank"
             },
             {
-              "title": "HeyBeauty",
-              "url": "https://heybeauty.ai",
+              "title": "Social Media Kit",
+              "url": "/#social-media",
               "target": "_blank"
             },
             {
-              "title": "Pagen",
-              "url": "https://pagen.so",
+              "title": "Brand Builder",
+              "url": "/#brand-builder",
               "target": "_blank"
             }
           ]
@@ -670,25 +545,25 @@
         {
           "title": "X",
           "icon": "RiTwitterXFill",
-          "url": "https://x.com/shipanyai",
+          "url": "https://x.com/claudedesigner",
           "target": "_blank"
         },
         {
-          "title": "Github",
-          "icon": "RiGithubFill",
-          "url": "https://github.com/shipanyai",
+          "title": "Instagram",
+          "icon": "RiInstagramFill",
+          "url": "https://instagram.com/claudedesigner",
           "target": "_blank"
         },
         {
           "title": "Discord",
           "icon": "RiDiscordFill",
-          "url": "https://discord.gg/HQNnrzjZQS",
+          "url": "https://discord.gg/claudedesigner",
           "target": "_blank"
         },
         {
           "title": "Email",
           "icon": "RiMailLine",
-          "url": "mailto:support@shipany.ai",
+          "url": "mailto:support@claudedesigner.com",
           "target": "_self"
         }
       ]

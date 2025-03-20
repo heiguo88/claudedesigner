@@ -123,19 +123,7 @@ export default async function () {
     },
     toolbar: {
       items: [
-        {
-          title: t("my_invites.edit_invite_link"),
-          icon: "RiBookLine",
-          url: "https://docs.shipany.ai",
-          target: "_blank",
-          variant: "outline",
-        },
-        {
-          title: t("my_invites.copy_invite_link"),
-          icon: "RiCopy2Line",
-          url: "https://discord.gg/HQNnrzjZQS",
-          target: "_blank",
-        },
+
       ],
     },
     columns: columns,
